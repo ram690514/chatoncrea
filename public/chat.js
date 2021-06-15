@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:80/');
+var socket = io.connect('https://chatoncreaa.herokuapp.com');
 var ouput = document.getElementById('output')
 var handle = document.getElementById('handle')
 var message = document.getElementById('message')
